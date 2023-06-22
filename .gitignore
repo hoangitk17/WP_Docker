@@ -1,0 +1,71 @@
+.env
+
+# Core
+#
+# Note: if you want to stage/commit WP core files
+# you can delete this whole section/until Configuration.
+/app/wp-admin/
+/app/wp-content/index.php
+/app/wp-content/languages
+/app/wp-content/plugins/index.php
+/app/wp-content/themes/index.php
+/app/wp-includes/
+/app/index.php
+/app/license.txt
+/app/readme.html
+/app/wp-*.php
+/app/xmlrpc.php
+
+# Configuration
+wp-config.php
+
+
+# ignore node dependency directories (used by grunt)
+node_modules/
+
+# ignore Editor files
+*.sublime-project
+*.sublime-workspace
+*.komodoproject
+
+
+# ignore OS generated files
+ehthumbs.db
+Thumbs.db
+
+# ignore compiled files
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+
+# htaccess
+/app/.htaccess
+
+# Example themes
+/app/wp-content/themes/twenty*/
+
+# Example plugin
+/app/wp-content/plugins/hello.php
+
+# Uploads
+/app/wp-content/uploads/
+
+# Log files
+*.log
+
+
+# All plugins
+#
+# Note: If you wish to whitelist plugins,
+# uncomment the next line
+# /app/wp-content/plugins
+
+# All themes
+#
+# Note: If you wish to whitelist themes,
+# uncomment the next line
+# /app/wp-content/themes
